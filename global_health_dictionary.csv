@@ -1,0 +1,25 @@
+column,type,description
+country,string,Country name.
+region,string,World region grouping.
+income_level,category,"Income level bucket: Low, Lower-Middle, Upper-Middle, High."
+year,integer,Calendar year (2010–2024).
+gdp_per_capita_usd,float,GDP per capita in current USD (synthetic).
+health_expenditure_per_capita_usd,float,Per-capita health expenditure in USD (synthetic).
+life_expectancy_years,float,Life expectancy at birth in years.
+infant_mortality_per_1000,float,"Infant deaths per 1,000 live births."
+maternal_mortality_per_100k,float,"Maternal deaths per 100,000 live births."
+doctors_per_1000,float,"Physicians per 1,000 population."
+hospital_beds_per_1000,float,"Hospital beds per 1,000 population."
+hiv_prevalence_pct_15_49,float,HIV prevalence among adults aged 15–49 (%).
+tb_incidence_per_100k,float,"Tuberculosis incidence per 100,000 population."
+malaria_incidence_per_1000,float,"Malaria incidence per 1,000 population."
+vaccination_dtp3_coverage_pct,float,DTP3 vaccination coverage (%).
+water_access_pct,float,Population with access to at least basic drinking water (%).
+sanitation_access_pct,float,Population with access to at least basic sanitation (%).
+obesity_rate_pct,float,Prevalence of obesity among adults (%).
+smoking_prevalence_pct,float,Prevalence of current smoking among adults (%).
+pm25_ug_m3,float,Annual mean PM2.5 concentration (µg/m³).
+undernourishment_pct,float,Share of population that is undernourished (%).
+uhc_service_coverage_index,float,Synthetic Universal Health Coverage service coverage index (20–95).
+oop_share_health_spending_pct,float,Out-of-pocket share of total health spending (%).
+ncd_mortality_per_100k,float,"Age-standardized mortality from non-communicable diseases per 100,000."
